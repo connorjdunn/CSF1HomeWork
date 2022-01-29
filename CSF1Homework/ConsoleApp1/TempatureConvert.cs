@@ -35,7 +35,7 @@ namespace CSF1Homework
                     case ConsoleKey.B:
                         Console.Write("What's the tempature outside in °f? ");
                         int fr2 = Convert.ToInt16(Console.ReadLine());
-                        int cel2 = fr2 - 32 / 9 / 5;
+                        int cel2 = (fr2 - 32) * 5 / 9;
                         Console.WriteLine("°" + cel2 + "c");
                         break;
 
